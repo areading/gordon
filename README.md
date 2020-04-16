@@ -9,24 +9,25 @@
 Ever wanted to get yelled at by Chef Ramsay whenever you inevitably fuck up
 your script or make a typo on the command line? Well now you can. 
 
-*Introducing: **Gordon**, the command line tool for MacOS and Linux that will make you 
-feel like a fucking donkey because you can't spell the command `quit` correctly.*
+*Introducing: **gordon**, the command line tool for Linux and MacOS that will make you 
+feel like a fucking donkey because you can't spell the `quit` command correctly.*
 
 ## Preview
 [![](https://img.youtube.com/vi/OT6i7RwEEB8/maxresdefault.jpg?1)](https://www.youtube.com/watch?v=OT6i7RwEEB8&feature=youtu.be)
 
 ## Installation
-Screaming and swearing is just around the corner, just follow these simple steps:
+Screaming and swearing is just around the corner. Just follow these simple steps:
 
-* Download all the insults from the `insults` directory
-* Place the contents of `gordon.sh` into your `~/.bash_profile`
-* Set the `GORDON_INSULTS` variable to the directory where you saved your insults
-* Install the additional libraries:
-    * **Mac OSX:** `brew install coreutils`(Includes gshuf)
-    * **Linux:** `apt-get install mpv` (Sound library)
+* Download all the insults from the `insults` directory.
+* In `gordon.sh`, set the `RAMSAY_INSULTS` variable to the directory where you saved your insults.
+* Place the contents of `gordon.sh` into your `~/.bash_profile`, or source it in to your currently running shell instance.
+* Install the additional programs:
+    * **Linux:** `apt-get install mpv` (Media player)
+    * **Mac OSX:** `brew install coreutils`(gshuf)
+* You can also adjust the `play_ramsay_insult` function to call another MP3 audio player of your choice.
 
 That's it! Try messing up on the command line, and enjoy Chef Ramsay's insults.
-I even added a nifty little test script for you called `test.py`.
 
 ## Disclaimer
-The license only applies to the code, I don't own any of the sounds, please don't sue me Fox.
+The license only applies to the code. I don't own any of the sounds; please don't sue me, Fox.
+
